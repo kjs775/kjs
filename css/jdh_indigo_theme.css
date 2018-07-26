@@ -1,0 +1,66 @@
+/*
+*	jdh colors
+*/
+
+/*
+indigo #3f51b5
+min opacity	white text: 51%	black text: 97%
+*/
+.jdh_indigo {
+	background-color: #3f51b5;
+	color: #ffffff;
+}
+
+/*
+indigo light #757de8
+min opacity	white text: 84%	black text: 55%
+*/
+.jdh_indigo_light {
+	background-color: #757de8;
+	color: #000000;
+}
+
+/*
+indigo dark #002984
+min opacity	white text: 38%	black text: X
+*/
+.jdh_indigo_dark {
+	background-color: #002984;
+	color: #ffffff;
+}
+
+.button_1 {
+	background-color: #3f51b5;
+	border-style: none;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+
+.button_1:focus {
+	outline-style: none;
+}
+
+.button_1:active {
+	background-color: #757de8;
+	color: #000000;
+	transition: all 0.5s;
+}
+
+.button_2 {
+	border-style: none;
+	background-color: #3f51b5;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+
+.button_2:hover {
+	background-color: #757de8;
+	color: #000000;
+	transition: all 0.5s;
+}
+
+.button_2:active {
+	background-color: #002984;
+	color: #ffffff;
+	transition: all 0.2s;
+}

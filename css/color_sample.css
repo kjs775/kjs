@@ -1,0 +1,668 @@
+/*
+*	jdh colors
+*/
+
+/*
+red	#F44336
+min opacity	white text: 85%	black text: 55%
+*/
+.jdh_red {
+	background-color: #F44336;
+	color: #000000;
+}
+
+/*
+red light	#ff7961
+min opacity	white text: X	black text: 48%
+*/
+.jdh_red_light {
+	background-color: #ff7961;
+	color: #000000;
+}
+
+/*
+red dark	#ba000d
+min opacity	white text: 60%	black text: 89%
+*/
+.jdh_red_dark {
+	background-color: #ba000d;
+	color: #ffffff;
+}
+
+/*
+pink	#e91e63
+min opacity	white text: 77%	black text: 59%
+*/
+.jdh_pink {
+	background-color: #e91e63;
+	color: #000000;
+}
+
+/*
+pink light	#ff6090
+min opacity	white text: X	black text: 50%
+*/
+.jdh_pink_light {
+	background-color: #ff6090;
+	color: #000000;
+}
+
+/*
+pink dark #ff6090
+min opacity	white text: 57%	black text: X
+*/
+.jdh_pink_dark {
+	background-color: #b0003a;
+	color: #ffffff;
+}
+
+/*
+purple #9c27b0
+min opacity	white text: 57%	black text: 81%
+*/
+.jdh_purple {
+	background-color: #ff6090;
+	color: #ffffff;
+}
+
+/*
+purple light #d05ce3
+min opacity	white text: 91%	black text: 52%
+*/
+.jdh_purple_light {
+	background-color: #d05ce3;
+	color: #000000;
+}
+
+/*
+purple dark #6a0080
+min opacity	white text: 45%	black text: X
+*/
+.jdh_purple_dark {
+	background-color: #6a0080;
+	color: #ffffff;
+}
+
+/*
+deeppurple #673ab7
+min opacity	white text: 50%	black text: X
+*/
+.jdh_deeppurple {
+	background-color: #673ab7;
+	color: #ffffff;
+}
+
+/*
+deeppurple_light #9a67ea
+min opacity	white text: 80%	black text: 56%
+*/
+.jdh_deeppurple_light {
+	background-color: #9a67ea;
+	color: #000000;
+}
+
+/*
+deeppurple_dark #320b86
+min opacity	white text: 80%	black text: 56%
+*/
+.jdh_deeppurple_dark {
+	background-color: #320b86;
+	color: #ffffff;
+}
+
+/*
+indigo #3f51b5
+min opacity	white text: 51%	black text: 97%
+*/
+.jdh_indigo {
+	background-color: #3f51b5;
+	color: #ffffff;
+}
+
+/*
+indigo light #757de8
+min opacity	white text: 84%	black text: 55%
+*/
+.jdh_indigo_light {
+	background-color: #757de8;
+	color: #000000;
+}
+
+/*
+indigo dark #002984
+min opacity	white text: 38%	black text: X
+*/
+.jdh_indigo_dark {
+	background-color: #002984;
+	color: #ffffff;
+}
+
+/*
+blue #2196f3
+min opacity	white text: 97%	black text: 52%
+*/
+.jdh_blue {
+	background-color: #2196f3;
+	color: #000000;
+}
+
+/*
+blue light #6ec6ff
+min opacity	white text: X	black text: 52%
+*/
+.jdh_blue_light {
+	background-color: #6ec6ff;
+	color: #000000;
+}
+
+/*
+blue dark #0069c0
+min opacity	white text: 61%	black text: 70%
+*/
+.jdh_blue_dark {
+	background-color: #0069c0;
+	color: #ffffff;
+}
+
+/*
+lightblue #03a9f4
+min opacity	white text: X	black text: 49%
+*/
+.jdh_lightblue {
+	background-color: #03a9f4;
+	color: #000000;
+}
+
+/*
+lightblue light #67daff
+min opacity	white text: X	black text: 45%
+*/
+.jdh_lightblue_light {
+	background-color: #67daff;
+	color: #000000;
+}
+
+/*
+lightblue dark #007ac1
+min opacity	white text: 70%	black text: 62%
+*/
+.jdh_lightblue_dark {
+	background-color: #007ac1;
+	color: #ffffff;
+}
+
+/*
+cyan #00BCD4
+min opacity	white text: X	black text: 48%
+*/
+.jdh_cyan {
+	background-color: #00BCD4;
+	color: #000000;
+}
+
+/*
+cyan light #62efff
+min opacity	white text: X	black text: 44%
+*/
+.jdh_cyan_light {
+	background-color: #62efff;
+	color: #000000;
+}
+
+/*
+cyan dark #008ba3
+min opacity	white text: 77%	black text: 57%
+*/
+.jdh_cyan_dark {
+	background-color: #008ba3;
+	color: #000000;
+}
+
+/*
+teal #009688
+min opacity	white text: 84%	black text: 55%
+*/
+.jdh_teal {
+	background-color: #009688;
+	color: #000000;
+}
+
+/*
+teal light #52c7b8
+min opacity	white text: X	black text: 46%
+*/
+.jdh_teal_light {
+	background-color: #52c7b8;
+	color: #000000;
+}
+
+/*
+teal dark #00675b
+min opacity	white text: 52%	black text: 95%
+*/
+.jdh_teal_light {
+	background-color: #00675b;
+	color: #ffffff;
+}
+
+/*
+green #4caf50
+min opacity	white text: X	black text: 50%
+*/
+.jdh_green {
+	background-color: #4caf50;
+	color: #000000;
+}
+
+/*
+green light	#80e27e
+min opacity	white text: X	black text: 45%
+*/
+.jdh_green_light {
+	background-color: #80e27e;
+	color: #000000;
+}
+
+/*
+green dark #087f23
+min opacity	white text: 63%	black text: 66%
+*/
+.jdh_green_dark {
+	background-color: #087f23;
+	color: #ffffff;
+}
+
+/*
+lightgreen #8bc34a
+min opacity	white text: X	black text: 47%
+*/
+.jdh_lightgreen {
+	background-color: #8bc34a;
+	color: #000000;
+}
+
+/*
+lightgreen light #8bc34a
+min opacity	white text: X	black text: 43%
+*/
+.jdh_lightgreen_light {
+	background-color: #bef67a;
+	color: #000000;
+}
+
+/*
+lightgreen dark #5a9216
+min opacity	white text: 80%	black text: 55%
+*/
+.jdh_lightgreen_dark {
+	background-color: #5a9216;
+	color: #000000;
+}
+
+/*
+lime #cddc39
+min opacity	white text: x	black text: 44%
+*/
+.jdh_lime {
+	background-color: #cddc39;
+	color: #000000;
+}
+
+/*
+lime light #ffff6e
+min opacity	white text: x	black text: 42%
+*/
+.jdh_lime_light {
+	background-color: #ffff6e;
+	color: #000000;
+}
+
+/*
+lime dark #99aa00
+min opacity	white text: x	black text: 49%
+*/
+.jdh_lime_dark {
+	background-color: #99aa00;
+	color: #000000;
+}
+
+/*
+yellow #ffeb3b
+min opacity	white text: x	black text: 43%
+*/
+.jdh_yellow {
+	background-color: #ffeb3b;
+	color: #000000;
+}
+
+/*
+yellow light #ffff72
+min opacity	white text: x	black text: 42%
+*/
+.jdh_yellow_light {
+	background-color: #ffff72;
+	color: #000000;
+}
+
+/*
+yellow dark #c8b900
+min opacity	white text: x	black text: 46%
+*/
+.jdh_yellow_dark {
+	background-color: #c8b900;
+	color: #000000;
+}
+
+/*
+amber #ffc107
+min opacity	white text: x	black text: 45%
+*/
+.jdh_amber {
+	background-color: #ffc107;
+	color: #000000;
+}
+
+/*
+amber light #fff350
+min opacity	white text: x	black text: 43%
+*/
+.jdh_amber_light {
+	background-color: #fff350;
+	color: #000000;
+}
+
+/*
+amber dark #c79100
+min opacity	white text: x	black text: 50%
+*/
+.jdh_amber_dark {
+	background-color: #c79100;
+	color: #000000;
+}
+
+/*
+orange #ff9800
+min opacity	white text: x	black text: 47%
+*/
+.jdh_orange {
+	background-color: #ff9800;
+	color: #000000;
+}
+
+/*
+orange light #ffc947
+min opacity	white text: x	black text: 45%
+*/
+.jdh_orange_light {
+	background-color: #ffc947;
+	color: #000000;
+}
+
+/*
+orange dark #c66900
+min opacity	white text: 80%	black text: 56%
+*/
+.jdh_orange_dark {
+	background-color: #c66900;
+	color: #000000;
+}
+
+/*
+deeporange #ff5722
+min opacity	white text: 96%	black text: 52%
+*/
+.jdh_deeporange {
+	background-color: #ff5722;
+	color: #000000;
+}
+
+/*
+deeporange light #ff8a50
+min opacity	white text: X	black text: 48%
+*/
+.jdh_deeporange_light {
+	background-color: #ff8a50;
+	color: #000000;
+}
+
+/*
+deeporange dark #c41c00
+min opacity	white text: 62%	black text: 74%
+*/
+.jdh_deeporange_dark {
+	background-color: #c41c00;
+	color: #ffffff;
+}
+
+/*
+brown #795548
+min opacity	white text: 52%	black text: 88%
+*/
+.jdh_brown {
+	background-color: #795548;
+	color: #ffffff;
+}
+
+/*
+brown light	#a98274
+min opacity	white text: 88%	black text: 54%
+*/
+.jdh_brown_light {
+	background-color: #a98274;
+	color: #000000;
+}
+
+/*
+brown dark	#4b2c20
+min opacity	white text: 37%	black text: x
+*/
+.jdh_brown_dark {
+	background-color: #4b2c20;
+	color: #ffffff;
+}
+
+/*
+grey	#9e9e9e
+min opacity	white text: x	black text: 50%
+*/
+.jdh_grey {
+	background-color: #9e9e9e;
+	color: #000000;
+}
+
+/*
+grey light	#cfcfcf
+min opacity	white text: x	black text: 45%
+*/
+.jdh_grey_light {
+	background-color: #cfcfcf;
+	color: #000000;
+}
+
+/*
+grey dark	#707070
+min opacity	white text: 63%	black text: 65%
+*/
+.jdh_grey_dark {
+	background-color: #707070;
+	color: #ffffff;
+}
+
+/*
+bluegrey	#607d8b
+min opacity	white text: 70%	black text: 60%
+*/
+.jdh_bluegrey {
+	background-color: #607d8b;
+	color: #000000;
+}
+
+/*
+bluegrey light	#8eacbb
+min opacity	white text: X	black text: 48%
+*/
+.jdh_bluegrey_light {
+	background-color: #8eacbb;
+	color: #000000;
+}
+
+/*
+bluegrey dark	#34515e
+min opacity	white text: 44%	black text: X
+*/
+.jdh_bluegrey_dark {
+	background-color: #34515e;
+	color: #ffffff;
+}
+
+/*
+red text
+#F44336
+*/
+.jdh_text_red {
+	color: #F44336;
+}
+
+/*
+pink text
+#E91E63
+*/
+.jdh_text_pink {
+	color: #E91E63;
+}
+
+/*
+purple text
+#9C27B0
+*/
+.jdh_text_purple {
+	color: #9C27B0;
+}
+
+/*
+deep purple text
+#673AB7
+*/
+.jdh_text_deeppurple {
+	color: #673AB7;
+}
+
+/*
+indigo text
+#3F51B5
+*/
+.jdh_text_indigo {
+	color: #3F51B5;
+}
+
+/*
+blue text
+#2196F3
+*/
+.jdh_text_blue {
+	color: #2196F3;
+}
+
+/*
+light blue text
+#03A9F4
+*/
+.jdh_text_lightblue {
+	color: #03A9F4;
+}
+
+/*
+cyan text
+#00BCD4
+*/
+.jdh_text_cyan {
+	color: #00BCD4;
+}
+
+/*
+teal text
+#009688
+*/
+.jdh_text_teal {
+	color: #009688;
+}
+
+/*
+green text
+#4CAF50
+*/
+.jdh_text_green {
+	color: #4CAF50;
+}
+
+/*
+light green text
+#8BC34A
+*/
+.jdh_text_lightgreen {
+	color: #8BC34A;
+}
+
+/*
+lime text
+#CDDC39
+*/
+.jdh_text_lime {
+	color: #CDDC39;
+}
+
+/*
+yellow text
+#FFEB3B
+*/
+.jdh_text_yellow {
+	color: #FFEB3B;
+}
+
+/*
+amber text
+#FFC107
+*/
+.jdh_text_amber {
+	color: #FFC107;
+}
+
+/*
+orange text
+#FF9800
+*/
+.jdh_text_orange {
+	color: #FF9800;
+}
+
+/*
+deep orange text
+#FF5722
+*/
+.jdh_text_deeporange {
+	color: #FF5722;
+}
+
+/*
+brown text
+#795548
+*/
+.jdh_text_brown {
+	color: #795548;
+}
+
+/*
+grey text
+#9E9E9E
+*/
+.jdh_text_grey {
+	color: #9E9E9E;
+}
+
+/*
+blue grey text
+#607D8B
+*/
+.jdh_text_bluegrey {
+	color: #607D8B;
+}

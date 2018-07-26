@@ -1,0 +1,130 @@
+body, html {
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: #fdfdfd;
+}
+
+#wrap {
+	width: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row {
+	padding: 10px 0;
+}
+
+.row>* {
+	float: left;
+}
+
+.row:after, .row:before {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.col_1 {
+	width: 6.25%;
+}
+
+.col_2 {
+	width: 12.5%;
+}
+
+.col_3 {
+	width: 18.75%;
+}
+
+.col_4 {
+	width: 25%;
+}
+
+.col_5 {
+	width: 31.25%;
+}
+
+.col_6 {
+	width: 37.5%;
+}
+
+.col_7 {
+	width: 43.75%;
+}
+
+.col_8 {
+	width: 50%;
+}
+
+.col_9 {
+	width: 56.25%;
+}
+
+.col_10 {
+	width: 62.5%;
+}
+
+.col_11 {
+	width: 68.75%;
+}
+
+.col_12 {
+	width: 75;
+}
+
+.col_13 {
+	width: 81.25%;
+}
+
+.col_14 {
+	width: 87.5%;
+}
+
+.col_15 {
+	width: 93.75%;
+}
+
+.col_16 {
+	width: 100%;
+}
+
+.display_center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.container {
+	padding: 10px;
+}
+
+.margin_none {
+	margin: 0;
+}
+
+.paddin_none {
+	padding: 0;
+}
+
+.margin_h {
+	margin: 0 10px;
+}
+
+.margin_h_auto {
+	margin: 0 auto;
+}
+
+.margin_bottom {
+	margin-bottom: 20px;
+}
