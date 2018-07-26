@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mapper.BoardMapper">
+	<resultMap id="result" type="BoardDto">
+		<result property="idx" column="idx"/>
+		<result property="title" column="title"/>
+		<result property="content" column="content"/>
+		<result property="view_cnt" column="view_cnt"/>
+		<result property="reg_date" column="reg_date"/>
+	</resultMap>
+	
+	<select id="findAll" resultMap="result">
+		SELECT * FROM board
+		ORDER BY reg_date DESC
+	</select>
+	
+	<select id="findByIdx" parameterType="Map" resultMap="result">
+		SELECT * FROM board
+		WHERE idx IN
+		<foreach collection="list" item="id" separator="," open="(" close=")">
+		#{id}
+		</foreach>
+		ORDER BY reg_date DESC
+	</select>
+	
+	
+	<select id="findWithCondition" parameterType="Map" resultMap="result">
+		SELECT * FROM board
+		<where>
+			<if test="content != ull"> 
+				AND content like '%${keyword}%'
+			</if>
+			<if test="title != null">
+				AND title like '%${keyword}%'
+			</if>
+		</where> 
+		ORDER BY reg_date DESC
+	</select>
+	<select id="findOneById" parameterType="int" resultType="BoardDto">
+		SELECT * FROM board WHERE idx=#{idx} 
+	</select>
+	
+	<insert id="addBoard" parameterType="BoardDto">
+		INSERT INTO board VALUES(#{idx}, #{title}, #{content}, 0, SYSDATE)
+	</insert>
+	
+	<update id="updateTitle" parameterType="BoardDto">
+		UPDATE board SET title=#{title}, content=#{content} WHERE idx=#{idx}
+	</update>
+	
+	<update id="updateViewCnt" parameterType="int">
+		UPDATE board SET view_cnt = view_cnt + 1 WHERE idx=#{idx}
+	</update>
+	
+	<delete id="removeBoard" parameterType="int">
+		DELETE FROM board WHERE idx=#{idx}
+	</delete>
+	
+	<delete id="removeAll">
+		DELETE FROM board
+	</delete>
+	
+	<update id="commit">
+		commit
+	</update>
+</mapper>
